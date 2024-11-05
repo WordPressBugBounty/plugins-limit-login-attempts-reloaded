@@ -5,7 +5,7 @@ Tags: brute force, login, security, firewall, protection
 License: GPLv2 or later
 Requires at least: 3.0
 Tested up to: 6.7
-Stable tag: 2.26.14
+Stable tag: 2.26.15
 
 Block excessive login attempts and protect your site against brute force attacks. Simple, yet powerful tools to improve site performance.
 
@@ -139,9 +139,15 @@ By default, you will need to copy and paste the lists to each site manually. For
 
 == Changelog ==
 
+= 2.26.15 =
+* Fixed translation compatibility with WordPress 6.7.
+* Fixed GDPR message on the Woocommerce login page.
+* Fix: load login-page-styles.css (on wp-login.php) only if it is necessary (thanks to georgejipa).
+* CSS fixes.
+
 = 2.26.14 =
 * Improved compatibility with custom login pages, including WooCommerce and UltimateMember.
-* Standardized display of c login messages.
+* Standardized display of login messages.
 * A new Custom Error Message setting is added. The message is being appended to all asynchronous messages.
 * Fixed translation compatibility with WordPress 6.7.
 * CSS fixes.
